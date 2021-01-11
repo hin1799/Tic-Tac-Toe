@@ -6,7 +6,10 @@ input{
   user-select: text;
 }
 
+
 /* Html tags */
+
+
 body {
   background-color: #393E46;
   text-align: center;
@@ -22,17 +25,15 @@ h1 {
 }
 
 /* Class selectors */
-.game-container {
+
+.container{
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  width: 306px;
-  margin: 50px auto;
+  justify-content: center;
 }
 
 .tic {
   border: 10px solid #404B69;
-  font-size: 5rem;
-  /* font-family: cursive; */
+  font-size: 4rem;
   line-height: 2;
   font-weight: 900;
   color: #DA0463;
