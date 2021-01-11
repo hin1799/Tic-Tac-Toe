@@ -16,6 +16,8 @@
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -24,31 +26,23 @@
       <h1>Tic Tac Toe</h1>
     </div>
   </header>
-  <br />
-  <br />
-  <p id="msg">
-  &nbsp
-  </p>
-  <div class="container">
+  <h4 id="msg">Player X will start</h4>
 
+  <div class="game-container">
     <input type="text" class="tic" id="1" onclick=" Change1(); playGame();" readonly />
     <input type="text" class="tic" id="2" onclick=" Change2(); playGame();" readonly />
     <input type="text" class="tic" id="3" onclick="Change3(); playGame();" readonly />
-    <br /><br />
     <input type="text" class="tic" id="4" onclick="Change4(); playGame();" readonly />
     <input type="text" class="tic" id="5" onclick="Change5(); playGame();" readonly />
     <input type="text" class="tic" id="6" onclick="Change6(); playGame();" readonly />
-    <br /><br />
     <input type="text" class="tic" id="7" onclick="Change7(); playGame();" readonly />
     <input type="text" class="tic" id="8" onclick="Change8(); playGame();" readonly />
     <input type="text" class="tic" id="9" onclick="Change9(); playGame();" readonly />
-    <br /><br />
-    <!-- button to reset the game -->
-    <button class="btn btn-md btn-outline-light" id="btn-reset" onclick="Reset();">Reset</button>
   </div>
-  <br />
- <!-- area that shows which players turn or winner-->
+  <!-- button to reset the game -->
+  <button class="btn btn-lg btn-outline-light" id="btn-reset" onclick="Reset();">Reset</button>
 
+  <br />
   <br />
   <footer>
     <p>
@@ -56,7 +50,7 @@
     </p>
   </footer>
 
-    <script src="myscript.js" charset="utf-8"></script>
+  <script src="myscript.js" charset="utf-8"></script>
 </body>
 
 </html>
