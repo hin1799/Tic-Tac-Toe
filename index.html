@@ -28,17 +28,43 @@
   </header>
   <h4 id="msg">Player X will start</h4>
 
-  <div class="game-container">
-    <input type="text" class="tic" id="1" onclick=" Change1(); playGame();" readonly />
-    <input type="text" class="tic" id="2" onclick=" Change2(); playGame();" readonly />
-    <input type="text" class="tic" id="3" onclick="Change3(); playGame();" readonly />
-    <input type="text" class="tic" id="4" onclick="Change4(); playGame();" readonly />
-    <input type="text" class="tic" id="5" onclick="Change5(); playGame();" readonly />
-    <input type="text" class="tic" id="6" onclick="Change6(); playGame();" readonly />
-    <input type="text" class="tic" id="7" onclick="Change7(); playGame();" readonly />
-    <input type="text" class="tic" id="8" onclick="Change8(); playGame();" readonly />
-    <input type="text" class="tic" id="9" onclick="Change9(); playGame();" readonly />
-  </div>
+
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <input type="text" class="tic" id="1" onclick=" Change1(); playGame();" readonly />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <input type="text" class="tic" id="2" onclick=" Change2(); playGame();" readonly />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <input type="text" class="tic" id="3" onclick="Change3(); playGame();" readonly />
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <input type="text" class="tic" id="4" onclick="Change4(); playGame();" readonly />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <input type="text" class="tic" id="5" onclick="Change5(); playGame();" readonly />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <input type="text" class="tic" id="6" onclick="Change6(); playGame();" readonly />
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <input type="text" class="tic" id="7" onclick="Change7(); playGame();" readonly />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <input type="text" class="tic" id="8" onclick="Change8(); playGame();" readonly />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <input type="text" class="tic" id="9" onclick="Change9(); playGame();" readonly />
+        </div>
+      </div>
+      </div>
+      <br />
   <!-- button to reset the game -->
   <button class="btn btn-lg btn-outline-light" id="btn-reset" onclick="Reset();">Reset</button>
 
